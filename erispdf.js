@@ -1,4 +1,4 @@
-   function Popup(data, winload = false) {
+   function Html2ErisPdf(data, winload = false) {
             var frame1 = $('<iframe />').attr("id", "printDiv");
             frame1[0].name = "frame1";
             frame1.css({ "position": "absolute", "top": "-1000000px" });
